@@ -1,0 +1,52 @@
+.talent-path {
+    display: flex;
+    flex-direction: row;
+
+    .text-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        text-transform: uppercase;
+        font-size: 14px;
+        text-align: center;
+
+        @media (max-width: 767px) {
+            font-size: 12px;
+        }
+    }
+}
+
+.talents {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.separator {
+    background: #4f4e4e;
+    flex-grow: 1;
+    max-width: 18%;
+    height: 15px;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #aaaaaa;
+
+    @media (max-width: 767px) {
+        max-width: 5%;
+    }
+}
+
+.talent-icon-container {
+    background: black;
+    padding: 12px;
+    transition: background-image 1s ease-in-out;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    background-image: url('../../../public/talent-icons-sprite.png');
+}

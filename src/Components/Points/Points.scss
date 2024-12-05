@@ -1,0 +1,19 @@
+.points-box {
+    font-size: 24px;
+    padding: 20px;
+    border: 1px solid #3f3f3f;
+    background: black;
+    text-align: center;
+
+    @media (max-width: 1023px) {
+        font-size: 20px;
+    }
+
+    @media (max-width: 767px) {
+        font-size: 16px;
+    }
+}
+
+.points-title {
+    color: #446689;
+}
